@@ -28,7 +28,7 @@ const b = 2;
 
 ```javascript
 const $ = require('gogocode');
-var a;
+var a,b;
 const script = $(source);
 // 按照你的意图，用 $_$ 当通配符能匹配任意位置的 AST 节点
 const aAssignment = script.find('const a = $_$');
